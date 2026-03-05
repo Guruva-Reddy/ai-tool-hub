@@ -1,0 +1,77 @@
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+}
+.login-container{
+display:flex;
+align-items:center;
+}
+
+
+/* Mobile layout */
+
+@media (max-width:600px){
+
+.login-container{
+justify-content:center;
+margin-top:15px;
+padding-right:0;
+}
+
+}
+.category-card{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+padding:20px;
+text-align:center;
+border-radius:16px;
+cursor:pointer;
+transition:0.4s;
+backdrop-filter:blur(8px);
+}
+
+.category-card:hover{
+transform:translateY(-8px);
+background:rgba(255,255,255,0.08);
+box-shadow:0 0 25px rgba(255,204,0,0.2);
+}
+
+.category-card i{
+font-size:26px;
+margin-bottom:12px;
+color:#ffcc00;
+}
+/* TOOL RATING */
+.rating{
+display:flex;
+align-items:center;
+gap:5px;
+margin-top:6px;
+}
+
+.star{
+font-size:15px;
+color:#555;
+cursor:pointer;
+transition:0.2s;
+}
+
+.star.active{
+color:#ffcc00;
+}
+
+.avg-rating{
+font-size:12px;
+color:#aaa;
+margin-left:6px;
+}
+.hero{
+text-align:center;
+padding:120px 20px 60px;
+}
+@keyframes shine {
+0% { background-position: 0% center; }
+100% { background-position: 200% center; }
+}
