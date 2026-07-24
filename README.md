@@ -2,6 +2,11 @@
 
 A web-based platform that helps users discover and access useful AI tools from different categories in one place.
 
+# Live Demo
+**Try the application here:**
+
+https://guruva-reddy.github.io/ai-tool-hub/
+
 # Project Overview
 
 SMART AI TOOL HUB is designed to provide a centralized hub where users can explore AI tools for learning, productivity, coding, content creation, image generation, and more.
